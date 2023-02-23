@@ -1,0 +1,9 @@
+.content {
+  overflow: hidden;
+  transition: all 300ms;
+  transform: translate(0, 0);
+}
+
+.close {
+  transform: translate(0, -100%);
+}
