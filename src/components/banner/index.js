@@ -3,23 +3,16 @@ import React, { useState } from "react";
 //banner image
 import image from "../../assets/intro_desktop.jpg";
 
-//icons
-import { RiCloseCircleLine } from "react-icons/ri";
-import directDownload from "../../assets/directdownload-icon.png";
-import cafebazar from "../../assets/cafebazaar.png";
-import snapIcon from "../../assets/snapp-pwa.svg";
-import sibApp from "../../assets/sibapp.png";
-import iApps from "../../assets/iapps.png";
+import Modal from "../modal";
+import ModalContent from "./modalContent";
 
 const Banner = () => {
-  const [showDownloadMenu, setShowDownloadMenu] = useState(false);
-
-  const clickHandler = () => {
-    setShowDownloadMenu(!showDownloadMenu);
-    console.log("mmm");
-  };
+  const [showModal, setIsShowModal] = useState(false);
   return (
     <div>
+      <Modal isShow={showModal} onClose={() => setIsShowModal((prev) => !prev)}>
+        <ModalContent onClose={() => setIsShowModal((prev) => !prev)} />
+      </Modal>
       <section className="flex flex-col">
         <div className="w-full">
           <img
@@ -41,101 +34,12 @@ const Banner = () => {
           </p>
           <div className="flex items-center py-2">
             <button
-              onClick={clickHandler}
+              onClick={() => setIsShowModal((prev) => !prev)}
               type="button"
               className="h-12 w-full text-[14px] leading-none font-bold py-2 bg-white border-none rounded-md"
             >
               دانلود اپلیکیشن اسنپ
             </button>
-          </div>
-        </div>
-        <div>
-          <div></div>
-          <div>
-            <div className="px-4">
-              <div className="flex justify-between items-center">
-                <h3 className="my-4">اپلیکیشن اسنپ</h3>
-                <div onClick={clickHandler}>
-                  <RiCloseCircleLine size={22} />
-                </div>
-              </div>
-              <div
-                className="pt-4"
-                style={{ borderBottom: "1px solid #e8e8e8" }}
-              >
-                <a
-                  href="#"
-                  className="flex items-center mb-4 w-full no-underline"
-                >
-                  <img src={directDownload} alt="direct" loading="lazy" />
-                  <span className="mr-4 text-[14px] text-[#3f3f3f]">
-                    دانلود مستقیم
-                  </span>
-                </a>
-              </div>
-              <div
-                className="pt-4"
-                style={{ borderBottom: "1px solid #e8e8e8" }}
-              >
-                <a
-                  href="#"
-                  className="flex items-center mb-4 w-full no-underline"
-                >
-                  <img src={cafebazar} alt="cafebazar" loading="lazy" />
-                  <span className="mr-4 text-[14px] text-[#3f3f3f]">
-                    دانلود از کافه&zwnj;بازار
-                  </span>
-                </a>
-              </div>
-              <div
-                className="pt-4"
-                style={{ borderBottom: "1px solid #e8e8e8" }}
-              >
-                <a
-                  href="#"
-                  className="flex items-center mb-4 w-full no-underline"
-                >
-                  <img
-                    src={snapIcon}
-                    alt="snapIcon"
-                    loading="lazy"
-                    width="24"
-                    height="24"
-                  />
-                  <span className="mr-4 text-[14px] text-[#3f3f3f]">
-                    وب اپلیکیشن اسنپ (iOS)
-                  </span>
-                </a>
-              </div>
-              <div
-                className="pt-4"
-                style={{ borderBottom: "1px solid #e8e8e8" }}
-              >
-                <a
-                  href="#"
-                  className="flex items-center mb-4 w-full no-underline"
-                >
-                  <img src={sibApp} alt="sibApp" loading="lazy" />
-                  <span className="mr-4 text-[14px] text-[#3f3f3f]">
-                    دانلود از سیب&zwnj;اپ
-                  </span>
-                </a>
-              </div>
-              <div
-                className="pt-4"
-                style={{ borderBottom: "1px solid #e8e8e8" }}
-              >
-                <a
-                  href="#"
-                  className="flex items-center mb-4 w-full no-underline"
-                >
-                  <img src={iApps} alt="iApps" loading="lazy" />
-                  <span className="mr-4 text-[14px] text-[#3f3f3f]">
-                    دانلود از ای&zwnj;اپس
-                  </span>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </section>

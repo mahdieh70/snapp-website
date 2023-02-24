@@ -7,9 +7,9 @@ module.exports = {
         "pale-gray": "#e5e5e5",
         "pale-green": "#63E2A7",
       },
-      screens:{
-        "medium":"841px"
-      }
+      screens: {
+        medium: "841px",
+      },
     },
   },
   plugins: [],
