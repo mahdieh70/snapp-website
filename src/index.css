@@ -18,3 +18,18 @@
 html {
   direction: rtl;
 }
+
+@layer components {
+  .text-primary {
+    @apply flex items-center mb-4 w-full no-underline;
+  }
+  .application-name {
+    @apply mr-4 text-[14px] text-[#3f3f3f];
+  }
+  .services-box {
+    @apply flex flex-col w-[27%] max-w-[22vw] bg-white items-center rounded-3xl no-underline m-4 p-2;
+  }
+  .servicesBox-text {
+    @apply text-[#3f3f3f] text-[14px] my-1;
+  }
+}

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 //banner image
 import image from "../../assets/intro_desktop.jpg";
 
+//components
 import Modal from "../modal";
 import ModalContent from "./modalContent";
 

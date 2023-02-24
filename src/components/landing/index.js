@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../banner";
 import Footer from "../footer";
 import Header from "../header";
+import Services from "../sevices";
 
 const Landing = () => {
   return (
@@ -9,6 +10,7 @@ const Landing = () => {
       <Header />
       <main className="min-h-screen">
         <Banner />
+        <Services/>
       </main>
       <Footer />
     </div>

@@ -27,10 +27,10 @@ const ModalContent = ({ children, onClose }) => {
             <div className="pt-4" style={{ borderBottom: "1px solid #e8e8e8" }}>
               <a
                 href="#"
-                className="flex items-center mb-4 w-full no-underline"
+                className="text-primary"
               >
                 <img src={directDownload} alt="direct" loading="lazy" />
-                <span className="mr-4 text-[14px] text-[#3f3f3f]">
+                <span className="application-name">
                   دانلود مستقیم
                 </span>
               </a>
@@ -38,10 +38,10 @@ const ModalContent = ({ children, onClose }) => {
             <div className="pt-4" style={{ borderBottom: "1px solid #e8e8e8" }}>
               <a
                 href="#"
-                className="flex items-center mb-4 w-full no-underline"
+                className="text-primary"
               >
                 <img src={cafebazar} alt="cafebazar" loading="lazy" />
-                <span className="mr-4 text-[14px] text-[#3f3f3f]">
+                <span className="application-name">
                   دانلود از کافه&zwnj;بازار
                 </span>
               </a>
@@ -49,7 +49,7 @@ const ModalContent = ({ children, onClose }) => {
             <div className="pt-4" style={{ borderBottom: "1px solid #e8e8e8" }}>
               <a
                 href="#"
-                className="flex items-center mb-4 w-full no-underline"
+                className="text-primary"
               >
                 <img
                   src={snapIcon}
@@ -58,7 +58,7 @@ const ModalContent = ({ children, onClose }) => {
                   width="24"
                   height="24"
                 />
-                <span className="mr-4 text-[14px] text-[#3f3f3f]">
+                <span className="application-name">
                   وب اپلیکیشن اسنپ (iOS)
                 </span>
               </a>
@@ -66,10 +66,10 @@ const ModalContent = ({ children, onClose }) => {
             <div className="pt-4" style={{ borderBottom: "1px solid #e8e8e8" }}>
               <a
                 href="#"
-                className="flex items-center mb-4 w-full no-underline"
+                className="text-primary"
               >
                 <img src={sibApp} alt="sibApp" loading="lazy" />
-                <span className="mr-4 text-[14px] text-[#3f3f3f]">
+                <span className="application-name">
                   دانلود از سیب&zwnj;اپ
                 </span>
               </a>
@@ -77,10 +77,10 @@ const ModalContent = ({ children, onClose }) => {
             <div className="pt-4" style={{ borderBottom: "1px solid #e8e8e8" }}>
               <a
                 href="#"
-                className="flex items-center mb-4 w-full no-underline"
+                className="text-primary"
               >
                 <img src={iApps} alt="iApps" loading="lazy" />
-                <span className="mr-4 text-[14px] text-[#3f3f3f]">
+                <span className="application-name">
                   دانلود از ای&zwnj;اپس
                 </span>
               </a>
