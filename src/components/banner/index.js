@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 
-//banner image
-import image from "../../assets/intro_desktop.jpg";
-
 //components
-import Modal from "../modal";
-import ModalContent from "./modalContent";
+import Modal from "../drawerMenu";
+import ModalContent from "./drowerMenuContent";
 
 const Banner = () => {
   const [showModal, setIsShowModal] = useState(false);
@@ -15,13 +12,8 @@ const Banner = () => {
         <ModalContent onClose={() => setIsShowModal((prev) => !prev)} />
       </Modal>
       <section className="flex flex-col">
-        <div className="w-full">
-          <img
-            src={image}
-            alt="pic"
-            className="w-full"
-            style={{ transform: "scaleX(-1)" }}
-          />
+        <div className="bg-bannerImage w-[100%] bg-cover bg-no-repeat bg-center  min-h-[40vh]" style={{transform:"scaleX(-1)"}}>
+         
         </div>
         <div className="flex flex-col w-full bg-[#21aa58] py-4 px-6">
           <h1 className="text-[28px] leading-[48px] text-white font-bold">

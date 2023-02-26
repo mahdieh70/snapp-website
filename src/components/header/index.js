@@ -6,8 +6,9 @@ import logo from "../../assets/snappLogo.svg";
 //icons
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
-import Modal from "../modal/index";
-import ModalContent from "../header/modalContent/index";
+//components
+import DrawerMenu from "../drawerMenu";
+import DrawerMenuContent from "./drawerMenuContent";
 
 const Header = () => {
   const [showModal, setIsShowModal] = useState(false);
@@ -19,9 +20,9 @@ const Header = () => {
 
   return (
     <div>
-      <Modal isShow={showModal} onClose={() => setIsShowModal((prev) => !prev)}>
-        <ModalContent />
-      </Modal>
+      <DrawerMenu isShow={showModal} onClose={() => setIsShowModal((prev) => !prev)}>
+        <DrawerMenuContent />
+      </DrawerMenu>
       <header className="z-[1200] fixed top-0 left-0 right-0 flex justify-between items-center bg-white border-b border-[#e5e5e5]  px-4 h-16 medium:flex medium:text-center medium:items-center medium:h-[96px] medium:bg-white medium:border medium:border-solid medium:border-pale-gray xl-[96px] medium:px-48">
         <div onClick={handleMenu} className="flex medium:hidden">
           {menu ? <AiOutlineClose size={22} /> : <AiOutlineMenu size={22} />}

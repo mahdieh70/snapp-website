@@ -10,6 +10,10 @@ module.exports = {
       screens: {
         medium: "841px",
       },
+      backgroundImage: {
+        introduceImage: "url('/src/assets/introduceImage/super-app.jpg')",
+        bannerImage: "url('/src/assets/bannerImage/intro_desktop.jpg')",
+      },
     },
   },
   plugins: [],

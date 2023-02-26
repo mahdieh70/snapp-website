@@ -32,4 +32,13 @@ html {
   .servicesBox-text {
     @apply text-[#3f3f3f] text-[14px] my-1;
   }
+  .footer-navLink {
+    @apply ml-4 my-2 no-underline text-pale-black text-[14px];
+  }
+  .socialMedia-icon {
+    @apply mx-[0.2em] align-middle opacity-[0.7];
+  }
+  .register-box {
+    @apply h-[260px] text-center flex flex-col items-center justify-center leading-[1.7] rounded-[18px] mt-6 p-6 bg-[#fff];
+  }
 }

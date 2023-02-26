@@ -32,7 +32,7 @@ const Services = () => {
 
   return (
     <div>
-      <section className="bg-[#f2f5f8] flex flex-col">
+      <section className="bg-[#f2f5f8] flex flex-col mb-10">
         <h3 className="text-center py-8">
           یک اپلیکیشن، برای تمام نیاز&zwnj;ها
         </h3>
