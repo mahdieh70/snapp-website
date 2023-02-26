@@ -1,20 +1,24 @@
 import React, { useState } from "react";
 
 //components
-import Modal from "../drawerMenu";
-import ModalContent from "./drowerMenuContent";
+import DrawerMenu from "../drawerMenu";
+import DrawerMenuContent from "./drowerMenuContent";
 
 const Banner = () => {
   const [showModal, setIsShowModal] = useState(false);
   return (
-    <div>
-      <Modal isShow={showModal} onClose={() => setIsShowModal((prev) => !prev)}>
-        <ModalContent onClose={() => setIsShowModal((prev) => !prev)} />
-      </Modal>
+    <>
+      <DrawerMenu
+        isShow={showModal}
+        onClose={() => setIsShowModal((prev) => !prev)}
+      >
+        <DrawerMenuContent onClose={() => setIsShowModal((prev) => !prev)} />
+      </DrawerMenu>
       <section className="flex flex-col">
-        <div className="bg-bannerImage w-[100%] bg-cover bg-no-repeat bg-center  min-h-[40vh]" style={{transform:"scaleX(-1)"}}>
-         
-        </div>
+        <div
+          className="bg-bannerImage w-[100%] bg-cover bg-no-repeat bg-center  min-h-[50vh]"
+          style={{ transform: "scaleX(-1)" }}
+        ></div>
         <div className="flex flex-col w-full bg-[#21aa58] py-4 px-6">
           <h1 className="text-[28px] leading-[48px] text-white font-bold">
             تجربه&zwnj;ی زندگی راحت&zwnj;تر، سریع&zwnj;تر و به&zwnj;صرفه&zwnj;تر
@@ -36,7 +40,7 @@ const Banner = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

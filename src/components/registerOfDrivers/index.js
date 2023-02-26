@@ -9,7 +9,7 @@ import video from "../../assets/video/jazb-ranande.mp4";
 
 const RegisterOfDrivers = () => {
   return (
-    <div>
+    <>
       <section className="text-center flex flex-col justify-center items-center mt-10 py-10 px-4 bg-[#f2f5f8] leading-[1.7]">
         <h2 className="text-[32px] leading-[52px] font-black text-center opacity-[0.8]">
           در کمتر از ۱۰ دقیقه ثبت‌نام کنید و به ناوگان اسنپ بپیوندید.
@@ -103,7 +103,7 @@ const RegisterOfDrivers = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

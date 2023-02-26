@@ -7,7 +7,7 @@ import eco from "../../assets/introduceImage/210x190-eco.png";
 
 const IntroducingSnapp = () => {
   return (
-    <div>
+    <>
       <section className="min-h-[700px] flex flex-col relative ">
         <div className="bg-introduceImage h-[30vh] bg-cover bg-center w-full flex-wrap flex"></div>
         <div className="flex flex-col mx-4">
@@ -63,7 +63,7 @@ const IntroducingSnapp = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

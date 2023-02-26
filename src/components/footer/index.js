@@ -13,7 +13,7 @@ import namad from "../../assets/footerLogo/namad.png";
 
 const Footer = () => {
   return (
-    <div>
+    <>
       <footer className="min-h-[388.75px] flex flex-col items-center justify-center pb-8 pt-10">
         <nav className="max-w-[1000px] flex flex-wrap justify-center pr-2 leading-[1.7]">
           <a href="#" className="footer-navLink ">
@@ -96,7 +96,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </div>
+    </>
   );
 };
 

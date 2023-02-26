@@ -19,8 +19,11 @@ const Header = () => {
   };
 
   return (
-    <div>
-      <DrawerMenu isShow={showModal} onClose={() => setIsShowModal((prev) => !prev)}>
+    <>
+      <DrawerMenu
+        isShow={showModal}
+        onClose={() => setIsShowModal((prev) => !prev)}
+      >
         <DrawerMenuContent />
       </DrawerMenu>
       <header className="z-[1200] fixed top-0 left-0 right-0 flex justify-between items-center bg-white border-b border-[#e5e5e5]  px-4 h-16 medium:flex medium:text-center medium:items-center medium:h-[96px] medium:bg-white medium:border medium:border-solid medium:border-pale-gray xl-[96px] medium:px-48">
@@ -75,7 +78,7 @@ const Header = () => {
           </a>
         </nav>
       </header>
-    </div>
+    </>
   );
 };
 

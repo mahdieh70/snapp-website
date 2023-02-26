@@ -28,7 +28,7 @@ const OrderImageSlider = () => {
           <div
             style={{
               backgroundImage: `url(${slides[currentIndex].url})`,
-              //   transform: "translate3d(0px, 0px, 0px)",
+                // transform: "translate3d(0px, 0px, 0px)",
             }}
             className="h-[205.714px] min-h-full bg-cover bg-center bg-no-repeat w-full min-w-[calc(100% - 0px)] max-w-[ calc(100% - 0px)] overflow-hidden relative  "
           ></div>

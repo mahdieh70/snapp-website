@@ -21,6 +21,8 @@ import moving from "../../assets/Moving.png";
 import pay from "../../assets/pay.svg";
 import snappTicket from "../../assets/ticket-icon (1).svg";
 
+import { Link } from "react-router-dom";
+
 const Services = () => {
   const [visible, setVisible] = useState(12);
 
@@ -31,7 +33,7 @@ const Services = () => {
   const isButtonVisible = visible < 19;
 
   return (
-    <div>
+    <>
       <section className="bg-[#f2f5f8] flex flex-col mb-10">
         <h3 className="text-center py-8">
           یک اپلیکیشن، برای تمام نیاز&zwnj;ها
@@ -43,7 +45,7 @@ const Services = () => {
               : "flex justify-center flex-wrap relative max-h-[9999px]"
           }
         >
-          <a href="#" className="services-box">
+          <Link to="/taxiServices" className="services-box">
             <img
               src={taxiImage}
               alt="taxi"
@@ -54,11 +56,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">تاکسی اینترنتی</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/bikeServices" className="services-box">
             <img
               src={bike}
-              alt="taxi"
+              alt="bike"
               width={48}
               height={48}
               className="mx-1"
@@ -66,11 +68,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">پیک موتوری</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/pickupServices" className="services-box">
             <img
               src={pickUp}
-              alt="taxi"
+              alt="pickUp"
               width={48}
               height={48}
               className="mx-1"
@@ -78,11 +80,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">درخواست وانت </h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/foodServices" className="services-box">
             <img
               src={food}
-              alt="taxi"
+              alt="food"
               width={48}
               height={48}
               className="mx-1"
@@ -90,11 +92,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">سفارش آنلاین غذا</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/marketServices" className="services-box">
             <img
               src={market}
-              alt="taxi"
+              alt="market"
               width={48}
               height={48}
               className="mx-1"
@@ -102,11 +104,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">سوپرمارکت آنلاین</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/expressServices" className="services-box">
             <img
               src={express}
-              alt="taxi"
+              alt="express"
               width={48}
               height={48}
               className="mx-1"
@@ -114,11 +116,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">اسنپ اکسپرس</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/domestickServices" className="services-box">
             <img
               src={domesticTicket}
-              alt="taxi"
+              alt="domestic"
               width={48}
               height={48}
               className="mx-1"
@@ -126,11 +128,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">بلیط پرواز داخلی</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/foreignServices" className="services-box">
             <img
               src={foreignTicket}
-              alt="taxi"
+              alt="foreign"
               width={48}
               height={48}
               className="mx-1"
@@ -138,11 +140,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">بلیط پرواز خارجی</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/doctorServices" className="services-box">
             <img
               src={doctor}
-              alt="taxi"
+              alt="doctor"
               width={48}
               height={48}
               className="mx-1"
@@ -150,11 +152,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">دکتر</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/hotelServices" className="services-box">
             <img
               src={hotel}
-              alt="taxi"
+              alt="hotel"
               width={48}
               height={48}
               className="mx-1"
@@ -162,11 +164,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">رزرو هتل</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/residenceServices" className="services-box">
             <img
               src={residence}
-              alt="taxi"
+              alt="residence"
               width={48}
               height={48}
               className="mx-1"
@@ -174,11 +176,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">رزرو اقامتگاه</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/shopCenterServices" className="services-box">
             <img
               src={shopCenter}
-              alt="taxi"
+              alt="shopCenter"
               width={48}
               height={48}
               className="mx-1"
@@ -186,11 +188,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">فروشگاه</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/busticketServices" className="services-box">
             <img
               src={busTicket}
-              alt="taxi"
+              alt="bus"
               width={48}
               height={48}
               className="mx-1"
@@ -198,8 +200,8 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">بلیط اتوبوس</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/trainServices" className="services-box">
             <img
               src={trainTicket}
               alt="taxi"
@@ -210,11 +212,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">بلیط قطار</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/clubServices" className="services-box">
             <img
               src={snappClub}
-              alt="taxi"
+              alt="club"
               width={48}
               height={48}
               className="mx-1"
@@ -222,11 +224,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text"> اسنپ! کلاب</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/investmentServices" className="services-box">
             <img
               src={investment}
-              alt="taxi"
+              alt="investment"
               width={48}
               height={48}
               className="mx-1"
@@ -234,11 +236,11 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">سرمایه گذاری</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/movingServices" className="services-box">
             <img
               src={moving}
-              alt="taxi"
+              alt="moving"
               width={48}
               height={48}
               className="mx-1"
@@ -246,17 +248,17 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">اسباب&zwnj;کشی منزل</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/payServices" className="services-box">
             <img src={pay} alt="taxi" width={48} height={48} className="mx-1" />
             <div>
               <h3 className="servicesBox-text">سرویس اعتباری</h3>
             </div>
-          </a>
-          <a href="#" className="services-box">
+          </Link>
+          <Link to="/snappTicketServices" className="services-box">
             <img
               src={snappTicket}
-              alt="taxi"
+              alt="snappTicket"
               width={48}
               height={48}
               className="mx-1"
@@ -264,7 +266,7 @@ const Services = () => {
             <div>
               <h3 className="servicesBox-text">اسنپ تیکت</h3>
             </div>
-          </a>
+          </Link>
           {isButtonVisible ? (
             <div
               className="absolute bottom-0 w-full h-[30%] flex justify-center items-end text-center"
@@ -284,7 +286,7 @@ const Services = () => {
           ) : null}
         </div>
       </section>
-    </div>
+    </>
   );
 };
 
