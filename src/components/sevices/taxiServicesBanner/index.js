@@ -15,7 +15,7 @@ const TaxiServicesBanner = () => {
         <DrawerMenuContent onClose={() => setIsShowMenu((prev) => !prev)} />
       </DrawerMenu>
       <section>
-        <div className="w-full min-h-[50vh] bg-cover bg-taxiServicesBanner"></div>
+        <div className="w-full min-h-[40vh] bg-cover bg-taxiServicesBanner"></div>
         <div className="flex flex-col py-4 px-6 leading-[1.7] bg-[#06D170]">
           <h1 className="text-white text-[26px] leading-[48px] font-bold">
             تاکسی اینترنتی اسنپ، در رکاب شماست!
