@@ -1,15 +1,14 @@
 import React from "react";
+import TaxiServicesBanner from "../taxiServicesBanner/index";
+import TaxiServicesAdvantages from "../taxiServicesAdvantages";
+import RegistrationOfRequest from "../registrationOfRequest";
 
 const TaxiServices = () => {
   return (
     <div>
-      <section>
-        <p>vmnfjbfghbfjbfjghkjhbhbhnv</p>
-        <p>bbbbbbbbn</p>
-        <p>bbbbbbbbn</p>
-        <p>bbbbbbbbn</p>
-        <p>bbbbbbbbn</p>
-      </section>
+      <TaxiServicesBanner />
+      <TaxiServicesAdvantages />
+      <RegistrationOfRequest/>
     </div>
   );
 };

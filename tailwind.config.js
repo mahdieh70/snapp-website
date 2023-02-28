@@ -13,6 +13,9 @@ module.exports = {
       backgroundImage: {
         introduceImage: "url('/src/assets/introduceImage/super-app.jpg')",
         bannerImage: "url('/src/assets/bannerImage/intro_desktop.jpg')",
+        taxiServicesBanner:
+          "url('/src/assets/bannerImage/taxiServicesBanner.jpg')",
+        taxiServicesAdvantages: "url('/src/assets/taxiAdvantagesImage/2.jpg')",
       },
     },
   },

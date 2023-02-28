@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Landing from "./components/landing/index";
 import Header from "./components/header/index";
 import Footer from "./components/footer/index";
-import TaxiServices from "./components/sevices/taxiServices/index";
+import TaxiServices from "./components/sevices/taxiServices/";
 import BikeServices from "./components/sevices/bikeServices";
 
 const App = () => {
