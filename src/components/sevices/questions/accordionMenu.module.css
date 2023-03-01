@@ -3,10 +3,8 @@
   transition: all 300ms;
   transform: translate(0, 0);
   padding: 0 16px;
- 
 }
 
 .close {
   transform: translate(0, -100%);
-  
 }
