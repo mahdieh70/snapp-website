@@ -11,7 +11,7 @@ const RadioButtons = ({ changed, id, isSelected, label, value }) => {
         checked={isSelected}
         className="hidden align-middle"
       />
-      <label htmlFor={id} className="radioButtonsStyle">
+      <label htmlFor={id} className="radioButtonsStyle ">
         {label}
       </label>
     </>

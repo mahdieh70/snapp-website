@@ -16,6 +16,9 @@ module.exports = {
         taxiServicesBanner:
           "url('/src/assets/bannerImage/taxiServicesBanner.jpg')",
         taxiServicesAdvantages: "url('/src/assets/taxiAdvantagesImage/2.jpg')",
+        bikeServicesBanner: "url('/src/assets/bannerImage/1-1.jpg')",
+        bikeAdvantagesImage:
+          "url('/src/assets/taxiAdvantagesImage/bikeImage.jpg')",
       },
     },
   },

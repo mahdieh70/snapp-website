@@ -21,7 +21,6 @@ const TaxiServicesAdvantages = () => {
           <ServicesDetailsHeader>
             مزایای تاکسی اینترنتی اسنپ
           </ServicesDetailsHeader>
-
           <ServicesDetailsHeaderContent>
             تاکسی اینترنتی اسنپ تحولی عظیم در سیستم حمل و نقل هوشمند محسوب
             می‌شود که هدفش برطرف کردن نیاز روزانه مردم برای سفر از نقطه‌ای به
@@ -30,16 +29,14 @@ const TaxiServicesAdvantages = () => {
         </div>
         <div className="mt-2 mx-4">
           <div className="mt-6">
-            <div className="overflow-hidden flex items-center justify-center rounded-[18px] bg-[#f2f5f8]">
-              <ServicesAdvantagesImage>
-                <img
-                  src={easyAndFast}
-                  alt="easyAndFast"
-                  height={190}
-                  loading="lazy"
-                />
-              </ServicesAdvantagesImage>
-            </div>
+            <ServicesAdvantagesImage>
+              <img
+                src={easyAndFast}
+                alt="easyAndFast"
+                height={190}
+                loading="lazy"
+              />
+            </ServicesAdvantagesImage>
             <ServicesAdvantagesTitle>آسان و سریع</ServicesAdvantagesTitle>
             <ServicesAdvantagesContent>
               با نصب سوپر اپلیکیشن اسنپ می‌توانید خیلی سریع و آسان، درخواست
@@ -47,24 +44,19 @@ const TaxiServicesAdvantages = () => {
             </ServicesAdvantagesContent>
           </div>
           <div className="mt-6">
-            <div className="overflow-hidden flex items-center justify-center rounded-[18px] bg-[#f2f5f8]">
-              <ServicesAdvantagesImage>
-                <img src={pricing} alt="pricing" height={190} loading="lazy" />
-              </ServicesAdvantagesImage>
-            </div>
+            <ServicesAdvantagesImage>
+              <img src={pricing} alt="pricing" height={190} loading="lazy" />
+            </ServicesAdvantagesImage>
             <ServicesAdvantagesTitle>قیمت‌گذاری شفاف</ServicesAdvantagesTitle>
-
             <ServicesAdvantagesContent>
               قیمت‌گذاری در اسنپ کاملا رقابتی، منطقی و شفاف است. مبلغ هر سفر پیش
               از درخواست خودرو، اعلام خواهد شد.
             </ServicesAdvantagesContent>
           </div>
           <div className="mt-6">
-            <div className="overflow-hidden flex items-center justify-center rounded-[18px] bg-[#f2f5f8]">
-              <ServicesAdvantagesImage>
-                <img src={support} alt="support" height={190} loading="lazy" />
-              </ServicesAdvantagesImage>
-            </div>
+            <ServicesAdvantagesImage>
+              <img src={support} alt="support" height={190} loading="lazy" />
+            </ServicesAdvantagesImage>
             <ServicesAdvantagesTitle>پشتیبانی تمام وقت</ServicesAdvantagesTitle>
             <ServicesAdvantagesContent>
               پشتیبانی اسنپ به صورت ۲۴ ساعته و در تمام روزهای هفته، آماده کمک و
