@@ -22,7 +22,7 @@ const DrawerMenuContent = () => {
   const [menu, setMenu] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
   const [height, setHeight] = useState();
-  
+
   const handleArrowIcon = () => {
     setOpenMenu(!openMenu);
   };
