@@ -2,9 +2,9 @@ import React from "react";
 import TaxiServicesBanner from "../taxiServicesBanner/index";
 import TaxiServicesAdvantages from "../taxiServicesAdvantages";
 import RegistrationOfRequest from "../registrationOfRequest";
-import OtherFeauters from "../otherFeatures";
+import OtherFeautersOfSnapTaxi from "../otherFeaturesOfSnappTaxi/index";
 import Register from "../register";
-import Questions from "../questions";
+import TaxiServicesQustions from "../taxiServicesQuestions";
 
 const TaxiServices = () => {
   return (
@@ -12,9 +12,9 @@ const TaxiServices = () => {
       <TaxiServicesBanner />
       <TaxiServicesAdvantages />
       <RegistrationOfRequest />
-      <OtherFeauters />
+      <OtherFeautersOfSnapTaxi />
       <Register />
-      <Questions />
+      <TaxiServicesQustions />
     </div>
   );
 };

@@ -4,6 +4,7 @@ import BikeServicesAdvantages from "../bikeServicesAdvantages";
 import BikeServicesVideo from "../../bikeServicesVideo";
 import BikeServicesRequest from "../bikeServicesRequest";
 import OtherFeautersOfSnappBike from "../otherFeautersOfSnappBike";
+import BikeServicesQuestions from "../bikeServicesQuestions/index";
 const BikeServices = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const BikeServices = () => {
       <BikeServicesVideo />
       <BikeServicesRequest />
       <OtherFeautersOfSnappBike />
+      <BikeServicesQuestions />
     </>
   );
 };
