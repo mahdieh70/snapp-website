@@ -20,7 +20,7 @@ const OrderImageSlider = () => {
 
   return (
     <>
-      <section className="my-10 mx-6 block" style={{ direction: "ltr" }}>
+      <section className="small:my-10 small:block medium:px-[85px] medium:mb-8 medium:mt-10 medium:py-6 block" style={{ direction: "ltr" }}>
         <div
           className="rounded-[9px] overflow-hidden relative flex"
           style={{ transform: "translateZ(0px)" }}

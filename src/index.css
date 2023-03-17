@@ -42,6 +42,46 @@ html {
     @apply h-[260px] text-center flex flex-col items-center justify-center leading-[1.7] rounded-[18px] mt-6 p-6 bg-[#fff];
   }
   .radioButtonsStyle {
-    @apply text-center rounded-[9px] mb-6 ml-6 py-2 px-4 bg-[#f5f5f6] text-[#545567] cursor-pointer whitespace-nowrap ;
+    @apply text-center rounded-[9px] mb-6 ml-6 py-2 px-4 bg-[#f5f5f6] text-[#545567] cursor-pointer whitespace-nowrap;
+  }
+  .smallLinkStyle {
+    @apply text-pale-black no-underline text-sm ;
+  }
+  .mediumLinkStyle {
+    @apply no-underline text-[76%] tracking-[-0.2px] mr-4;
+  }
+  .headerSmallStyle {
+    @apply px-4 text-[#3f3f3f] bg-white h-[64px] min-h-[64px] flex items-center justify-between fixed top-0 right-0 left-0 z-[1200];
+  }
+  .headerMediumStyle {
+    @apply px-[4%] text-[#3f3f3f] bg-white flex h-[96px] min-h-[96px] items-center fixed top-0 right-0 left-0 z-[1200] justify-start;
+  }
+  .navbarSmallStyle {
+    @apply text-center fixed top-[64px] flex flex-col max-w-[500px] w-full items-start bg-white right-0 bottom-0 h-full overflow-auto scale-0  origin-[100%-0];
+  }
+  .bannerSmallStyle {
+    @apply bg-bannerImage w-[100%] bg-cover bg-no-repeat bg-center  min-h-[50vh];
+  }
+  .bannerMediumStyle {
+    @apply bg-bannerImage  bg-cover bg-no-repeat bg-center  min-h-[50vh] flex-[0-0-41.65%] w-[41.65%] max-w-[41.65%];
+  }
+ 
+  .bannerContentMediumStyle {
+    @apply pr-[85px] flex-[0_0_58.31%] w-[58.31%] max-w-[58.31%] flex flex-col justify-around pl-6 py-6 bg-[#21aa58];
+  }
+  .bannerContentSmallStyle {
+    @apply flex flex-col w-full bg-[#21aa58] py-4 px-6;
+  }
+  .bannerContentSmallHeading {
+    @apply text-[28px] leading-[48px] text-white font-bold;
+  }
+  .bannerContentmediumHeading {
+    @apply text-[33px] leading-[52px] text-white font-bold;
+  }
+  .innerInput{
+    @apply h-[48px] min-h-[48p] flex overflow-hidden relative items-center flex-row will-change-[border-color] 
+  }
+  .placeholder{
+    @apply text-[#e8e8e8] w-full h-full absolute leading-[48px] px-2 pointer-events-none text-[12px]
   }
 }

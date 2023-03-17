@@ -20,10 +20,10 @@ const DrawerMenu = ({ isShow, children }) => {
         ? createPortal(
             <div className="z-[999] w-full h-full">
               <div
-                className="absolute top-0 left-0 w-full h-full"
+                className="absolute top-0 left-0 w-full h-full "
                 style={{ backgroundColor: "rgb(0 0 0 / 50%)" }}
               />
-              <div className="fixed w-full h-full overflow-auto">
+              <div className="fixed w-full h-full overflow-auto ">
                 <div>{children}</div>
               </div>
             </div>,

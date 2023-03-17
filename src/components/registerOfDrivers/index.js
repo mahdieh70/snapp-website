@@ -10,11 +10,11 @@ import video from "../../assets/video/jazb-ranande.mp4";
 const RegisterOfDrivers = () => {
   return (
     <>
-      <section className="text-center flex flex-col justify-center items-center mt-10 py-10 px-4 bg-[#f2f5f8] leading-[1.7]">
+      <section className="small:text-center small:flex small:flex-col small:justify-center small:items-center small:mt-10 small:py-10 small:px-4 small:bg-[#f2f5f8] small:leading-[1.7] medium:px-[85px] medium:text-center medium:flex medium:flex-col medium:items-center justify-center medium:mt-10 medium:py-10 medium:bg-[#f2f5f8] ">
         <h2 className="text-[32px] leading-[52px] font-black text-center opacity-[0.8]">
           در کمتر از ۱۰ دقیقه ثبت‌نام کنید و به ناوگان اسنپ بپیوندید.
         </h2>
-        <p className="font-medium text-[19.3px] py-4 text-center leading-[1.7] opacity-[0.6]">
+        <p className="font-medium text-[19small:px] py-4 text-center leading-[1.7] opacity-[0.6]">
           بدون نیاز به مراجعه‌ی حضوری، از طریق این صفحه، تمام مراحل ثبت‌نام را
           اینترنتی انجام دهید
         </p>

@@ -4,18 +4,20 @@ import IntroducingSnapp from "../IntroducingSnapp";
 import OrderImageSlider from "../orderImageSlider";
 import RegisterOfDrivers from "../registerOfDrivers";
 import Services from "../sevices";
+import Header from "../header";
 
 const Landing = () => {
   return (
-    <div>
-      <main className="min-h-screen">
+    <>
+      <Header />
+      <main>
         <Banner />
         <Services />
         <OrderImageSlider />
         <IntroducingSnapp />
         <RegisterOfDrivers />
       </main>
-    </div>
+    </>
   );
 };
 

@@ -10,7 +10,7 @@ const IntroducingSnapp = () => {
     <>
       <section className="min-h-[700px] flex flex-col relative ">
         <div className="bg-introduceImage h-[30vh] bg-cover bg-center w-full flex-wrap flex"></div>
-        <div className="flex flex-col mx-4">
+        <div className="small:flex small:flex-col small:mx-4 medium:px-[85px] medium:flex medium:flex-col">
           <h2 className="text-[20px] opacity-[0.9] mb-2 mt-4 ">
             سوپر اپ اسنپ، پاسخی به تمام نیازها
           </h2>
@@ -24,8 +24,8 @@ const IntroducingSnapp = () => {
             هتل، پرداخت قبض و خرید شارژ استفاده کنید.
           </pre>
         </div>
-        <div className="mt-2 mx-4 ">
-          <div className="mt-6">
+        <div className="small:mt-2 small:mx-4 small:flex small:flex-wrap small:justify-around medium:px-[85px] medium:mt-2 medium:flex medium:justify-between medium:flex-nowrap">
+          <div className="small:flex-[0-0-41.65%] small:w-[41.65%] small:max-w-[41.65%] small:mt-6 medium:flex-[0_0_33.32%] medium:w-[33.32%] medium:max-w-[33.32%] medium:mt-6 medium:mx-1">
             <div className="overflow-hidden flex justify-center items-center bg-[#f2f5f8] rounded-[18px]">
               <img src={easy} alt="easy" loading="lazy" height={190} />
             </div>
@@ -35,31 +35,27 @@ const IntroducingSnapp = () => {
               اپلیکیشن اسنپ شوید و روی آیکون مورد نظر بزنید.
             </pre>
           </div>
-          <div className="mt-6">
-            <div className="mt-6">
-              <div className="overflow-hidden flex justify-center items-center bg-[#f2f5f8] rounded-[18px]">
-                <img src={fast} alt="fast" loading="lazy" height={190} />
-              </div>
-              <p className="font-bold text-[14.8px] opacity-[0.9] my-4">سریع</p>
-              <pre className="text-[10.5px] align-baseline whitespace-pre-wrap opacity-[0.8]">
-                قرار گرفتن خدمات مختلف در یک پلت‌فرم به صرفه‌جویی در زمان کمک
-                می‌کند. سوپراپ اسنپ پاسخی سریع به نیازهای رومزه‌ی شماست.
-              </pre>
+          <div className="small:flex-[0-0-41.65%] small:w-[41.65%] small:max-w-[41.65%] small:mt-6 medium:flex-[0_0_33.32%] medium:w-[33.32%] medium:max-w-[33.32%] medium:mt-6 medium:mx-1">
+            <div className="overflow-hidden flex justify-center items-center bg-[#f2f5f8] rounded-[18px]">
+              <img src={fast} alt="fast" loading="lazy" height={190} />
             </div>
+            <p className="font-bold text-[14.8px] opacity-[0.9] my-4">سریع</p>
+            <pre className="text-[10.5px] align-baseline whitespace-pre-wrap opacity-[0.8]">
+              قرار گرفتن خدمات مختلف در یک پلت‌فرم به صرفه‌جویی در زمان کمک
+              می‌کند. سوپراپ اسنپ پاسخی سریع به نیازهای رومزه‌ی شماست.
+            </pre>
           </div>
-          <div className="mt-6">
-            <div className="mt-6">
-              <div className="overflow-hidden flex justify-center items-center bg-[#f2f5f8] rounded-[18px]">
-                <img src={eco} alt="eco" loading="lazy" height={190} />
-              </div>
-              <p className="font-bold text-[14.8px] opacity-[0.9] my-4">
-                به صرفه
-              </p>
-              <pre className="text-[10.5px] align-baseline whitespace-pre-wrap opacity-[0.8]">
-                سوپراپ اسنپ علاوه بر زمان در هزینه‌های شما نیز صرفه‌جویی می‌کند
-                تا بهترین خدمات را با قیمتی منطقی دریافت کنید.
-              </pre>
+          <div className="small:flex-[0-0-41.65%] small:w-[41.65%] small:max-w-[41.65%] small:mt-6 medium:flex-[0_0_33.32%] medium:w-[33.32%] medium:max-w-[33.32%] medium:mt-6 medium:mx-1">
+            <div className="overflow-hidden flex justify-center items-center bg-[#f2f5f8] rounded-[18px]">
+              <img src={eco} alt="eco" loading="lazy" height={190} />
             </div>
+            <p className="font-bold text-[14.8px] opacity-[0.9] my-4">
+              به صرفه
+            </p>
+            <pre className="text-[10.5px] align-baseline whitespace-pre-wrap opacity-[0.8]">
+              سوپراپ اسنپ علاوه بر زمان در هزینه‌های شما نیز صرفه‌جویی می‌کند تا
+              بهترین خدمات را با قیمتی منطقی دریافت کنید.
+            </pre>
           </div>
         </div>
       </section>

@@ -8,7 +8,9 @@ module.exports = {
         "pale-green": "#63E2A7",
       },
       screens: {
+        small: "601px",
         medium: "841px",
+        large: "1001px",
       },
       backgroundImage: {
         introduceImage: "url('/src/assets/introduceImage/super-app.jpg')",
@@ -22,6 +24,8 @@ module.exports = {
         pickupServicesBanner: "url('/src/assets/bannerImage/pickupBanner.jpg')",
         pickupServicesAdvantages:
           "url('/src/assets/taxiAdvantagesImage/pickupImage.jpg')",
+        aboutUsBannerImage:
+          "url('/src/assets/bannerImage/about-intro--mobile.jpg')",
       },
     },
   },

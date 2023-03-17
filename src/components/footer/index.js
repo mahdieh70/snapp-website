@@ -14,7 +14,7 @@ import namad from "../../assets/footerLogo/namad.png";
 const Footer = () => {
   return (
     <>
-      <footer className="min-h-[388.75px] flex flex-col items-center justify-center pb-8 pt-10">
+      <footer className="small:min-h-[100px] small:flex small:flex-col small:items-center small:justify-center small:pb-8 small:pt-10 medium:min-h-[100px] medium:px-[4%] medium:py-10 medium:flex medium:flex-col medium:items-center medium:justify-center">
         <nav className="max-w-[1000px] flex flex-wrap justify-center pr-2 leading-[1.7]">
           <a href="#" className="footer-navLink ">
             فرصت&zwnj;های شغلی
