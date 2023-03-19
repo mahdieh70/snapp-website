@@ -25,13 +25,13 @@ const AboutUs = () => {
       </DrawerMenu>
       <Header />
       <main>
-        <section className="small:flex small:flex-col medium:flex medium:flex-row-reverse medium:mt-[96px] ">
-          <div className="small:bg-aboutUsBannerImage small:bg-cover small:bg-center small:min-h-[40vh] small:w-full medium:flex-[0_0_41.65%] medium:w-[41.65%] medium:max-w-[41.65%]"></div>
-          <div className="small:flex small:flex-col small:py-4 small:px-6 small:bg-[#21aa58] medium:pr-[85px]">
-            <h1 className="small:text-white small:text-[27px] small:font-bold small:leading-[48px] medium:text-[34px]">
+        <section className="small:flex small:flex-col medium:flex medium:flex-row-reverse medium:mt-[96px] large:flex large:flex-row-reverse large:justify-center ">
+          <div className="small:bg-aboutUsBannerImage small:bg-cover small:bg-center small:min-h-[40vh] small:w-full medium:flex-[0_0_41.65%] medium:w-[41.65%] medium:max-w-[41.65%] large:flex-[0_0_49.98%] large:w-[49.98%] large:max-w-[49.98%]"></div>
+          <div className="small:flex small:flex-col small:py-4 small:px-6 small:bg-[#21aa58] medium:pr-[85px] large:pr-[10%] large:flex-[0_0_49.98%] large:w-[49.98%] large:max-w-[49.98%] large:flex large:flex-col large:justify-around large:pl-6 large:py-8 large:bg-[#21aa58]">
+            <h1 className="small:text-white small:text-[27px] small:font-bold small:leading-[48px] medium:text-[34px] large:mb-4 ">
               تجربه‌ی زندگی راحت‌تر، سریع‌تر و به‌صرفه‌تر با سوپراپلیکیشن اسنپ!
             </h1>
-            <p className="small:text-[15px] small:py-4 small:text-white medium:py-4 medium:text-[17px] ">
+            <p className="small:text-[15px] small:py-4 small:text-white medium:py-4 medium:text-[15px] large:text-[18px] large:py-4 ">
               از درخواست خودرو گرفته تا سفارش غذا، خرید سوپرمارکتی، خرید بلیت
               سفر، مشاوره‌ی پزشکی و روانشناسی، رزرو هتل و... را میتوانید با
               سوپراپلیکیشن اسنپ انجام دهید.

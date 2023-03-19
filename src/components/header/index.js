@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <>
       <header
-        className="justify-start px-[4%] text-[#3f3f3f] bg-white h-[96px] min-h-[96px] flex items-center fixed right-0 left-0 top-0 z-[1200]"
+        className="justify-between px-[4%] text-[#3f3f3f] bg-white h-[96px] min-h-[96px] flex items-center fixed right-0 left-0 top-0 z-[1200]"
         style={{ border: "1px solid #e5e5e5" }}
       >
         <div onClick={handleMenu} className="small:flex medium:hidden">
@@ -37,7 +37,7 @@ const Header = () => {
         <img
           src={logo}
           alt="logo"
-          className="small:w-[90px] small:h-[32px] small:cursor-pointer ml-4"
+          className="small:w-[90px] small:h-[32px] small:cursor-pointer small:ml-4"
         />
         <nav
           className={
@@ -83,12 +83,12 @@ const Header = () => {
           >
             درباره ما
           </Link>
-          <a
-            href="#"
+          <Link
+            to="contactUs"
             className="small:smallLinkStyle medium:mediumLinkStyle large:text-[90%]"
           >
             تماس با ما
-          </a>
+          </Link>
         </nav>
       </header>
     </>
